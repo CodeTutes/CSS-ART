@@ -1,0 +1,121 @@
+/*
+
+Welcome!
+
+	Thankyou for your support.
+
+	Feel free to use any and all code for your own projects.
+
+For more tutorials and code please visit the following:
+
+Youtube - https://www.youtube.com/channel/UCVt5gjOvMeIQachxp7uv0aQ (Dont forget to subscribe)
+
+GitHub - https://github.com/CodeTutes/CSS-ART
+
+
+*/
+
+body{
+  background-image: linear-gradient(#36d1dc, #5b86e5);
+  background-attachment: fixed;
+}
+
+.box-canvas{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 180px;
+  height: 180px;
+  top: 100px;
+}
+
+.head{
+	width:200px;
+	height:200px;
+	background-color:#FBD043;
+	border-radius:50%;
+	border: 10px solid black;
+}
+.eye{
+    position: absolute;
+	width:20px;
+    height:30px;
+	background-color: black;
+    border-radius:10px;
+	top: 70px;
+}
+.eye-left{
+	left:140px;
+}
+.eye-right{
+	left:60px;
+}
+.mouth{
+	width:110px;
+	height:50px;
+	border-radius: 0 0 100px 100px;
+	background-color: black;
+	position: absolute;
+	top: 130px;
+	left: 47px;
+	border:7px solid black;
+	overflow:hidden;
+}
+.teeth{
+	width:110px;
+	height:15px;
+	background-color:white;
+}
+.tongue{
+	width:45px;
+	height:30px;
+	background-color:red;
+	border-radius:50%;
+	position:absolute;
+	top:35px;
+	left:33px;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	position: absolute;
+	border-top: 35px solid transparent;
+	border-left: 70px solid white;
+	border-bottom: 35px solid transparent;
+	z-index: 1;
+	top: 335px;
+	left: 80px;
+	pointer-events: none;
+}
+
+.subbutton {
+	background-color:red;
+	border-radius: 20%;
+	position: absolute;
+	width: 220px;
+	height: 150px;
+	top: 300px;
+	z-index: 0;
+}
+
+.subbutton:hover,
+.subbutton:hover::before,
+.subbutton:hover::after {
+	background-color: maroon;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+}
